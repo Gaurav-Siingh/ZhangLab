@@ -44,3 +44,9 @@ footer {
     width: 100%;
     bottom: 0;
 }
+    .footer-logo img {
+        max-width: 100px; /* Adjust the size of the logo */
+    }
+    .footer-address {
+        text-align: center;
+    }
