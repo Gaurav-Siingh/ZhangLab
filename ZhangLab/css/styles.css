@@ -3,6 +3,32 @@ body {
     margin: 0;
     padding: 0;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.card a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.card a:hover {
+    text-decoration: underline;
+}
 
 header {
     background-color: #4CAF50;
@@ -44,9 +70,9 @@ footer {
     width: 100%;
     bottom: 0;
 }
-    .footer-logo img {
-        max-width: 100px; /* Adjust the size of the logo */
-    }
-    .footer-address {
-        text-align: center;
-    }
+.footer-logo img {
+    max-width: 100px; /* Adjust the size of the logo */
+}
+.footer-address {
+    text-align: center;
+}
