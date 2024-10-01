@@ -5,6 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Website</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+        }
+        .card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .card a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
@@ -27,6 +61,53 @@
         <h2>Home Page</h2>
         <p>Welcome to the Peoples page!</p>
     </main>
+
+  
+    <h1>Meet Our Team</h1>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Person 1">
+            <h2>John Doe</h2>
+            <p>Software Engineer</p>
+            <a href="#john-bio">View Bio</a>
+        </div>
+        
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Person 2">
+            <h2>Jane Smith</h2>
+            <p>Product Manager</p>
+            <a href="#jane-bio">View Bio</a>
+        </div>
+        
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Person 3">
+            <h2>Sam Johnson</h2>
+            <p>Designer</p>
+            <a href="#sam-bio">View Bio</a>
+        </div>
+        
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Person 4">
+            <h2>Alice Brown</h2>
+            <p>Marketing Specialist</p>
+            <a href="#alice-bio">View Bio</a>
+        </div>
+    </div>
+
+    <!-- Example bios (could be separate pages) -->
+    <div style="margin-top: 50px;">
+        <h2 id="john-bio">John Doe's Bio</h2>
+        <p>John is a skilled software engineer with 5 years of experience...</p>
+
+        <h2 id="jane-bio">Jane Smith's Bio</h2>
+        <p>Jane has a knack for product management and has led several successful launches...</p>
+
+        <h2 id="sam-bio">Sam Johnson's Bio</h2>
+        <p>Sam is a creative designer with a passion for user experience...</p>
+
+        <h2 id="alice-bio">Alice Brown's Bio</h2>
+        <p>Alice specializes in digital marketing and has a strong background in social media strategies...</p>
+    </div>
 
     <footer>
         <div class="footer-logo">
