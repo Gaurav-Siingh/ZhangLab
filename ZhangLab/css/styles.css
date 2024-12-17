@@ -8,6 +8,23 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+ /* First column (image) */
+.image-column {
+    width: 35%;
+    margin-right: 20px; /* Space between the image and text */
+}
+
+/* Second column (text) */
+.text-column {
+    width: 65%;
+}
+
+/* Optional styling for the image */
+.image-column img {
+    width: 100%; /* Make the image fill the column */
+    height: auto; /* Maintain aspect ratio */
+}
 .card {
     background: white;
     border-radius: 8px;
