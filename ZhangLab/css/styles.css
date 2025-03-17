@@ -92,4 +92,33 @@ footer {
 }
 .footer-address {
     text-align: center;
-}
+}    
+ .professor, .students {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .professor img, .student img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .professor h2, .student h3 {
+      margin: 10px 0;
+    }
+    .professor .bio, .student .bio {
+      font-size: 24px;
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+   .student-row {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .student {
+      margin: 0 20px;
+      text-align: center;
+    }
